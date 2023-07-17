@@ -7,8 +7,10 @@ var config = new ConfigurationBuilder()
         .Build();
 // Add services to the container.
 //added redis 
-builder.Services.AddStackExchangeRedisCache(options =>
-options.Configuration = config.GetValue<string>("CacheSettings:ConnectionString")
+builder.Services.AddStackExchangeRedisCache(options => {
+    options.Configuration = config.GetValue<string>("CacheSettings:ConnectionString");
+    options.InstanceName = "master";
+    }
 );
 
 builder.Services.AddControllers();

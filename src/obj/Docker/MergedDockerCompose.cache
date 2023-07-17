@@ -1,5 +1,35 @@
 name: dockercompose5085517533543463953
 services:
+  basket.api:
+    build:
+      context: D:\Praticals\AspNetMicroservices\src
+      dockerfile: Services/Basket/Basket.Api/Dockerfile
+    container_name: basket.api
+    depends_on:
+      basketdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      CacheSettings:ConnectionString: basketdb:6379
+    image: basketapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8001"
+      protocol: tcp
+  basketdb:
+    container_name: basketdb
+    image: redis:alpine
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 6379
+      published: "6379"
+      protocol: tcp
+    restart: always
   catalog.api:
     build:
       context: D:\Praticals\AspNetMicroservices\src

@@ -5,6 +5,7 @@ D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net6.0
 D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Basket.Api.runtimeconfig.json
 D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Basket.Api.dll
 D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Basket.Api.pdb
+D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net6.0\AutoMapper.dll
 D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
 D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
 D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
@@ -13,6 +14,7 @@ D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net6.0
 D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Microsoft.OpenApi.dll
 D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
 D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net6.0\StackExchange.Redis.dll
 D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -51,5 +53,3 @@ D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\obj\Debug\net6.0
 D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\obj\Debug\net6.0\Basket.Api.pdb
 D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\obj\Debug\net6.0\Basket.Api.genruntimeconfig.cache
 D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\obj\Debug\net6.0\ref\Basket.Api.dll
-D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net6.0\AutoMapper.dll
-D:\Praticals\AspNetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
